@@ -3,5 +3,6 @@
 	"sovrnBidAdapter",
 	"aolBidAdapter",
 	"justpremiumBidAdapter",
+	"inskinBidAdapter",
 	"hjAnalyticsAdapter"
 ]
