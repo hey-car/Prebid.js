@@ -15,7 +15,7 @@ let timeouts = [];
 let hjAnalytics = Object.assign(adapter({url, analyticsType}), {
   track({eventType, args}) {
     if (eventType == 'bidRequested') {
-      requestId = args.requestId;
+      requestId = args.auctionId;
       auctionStart = args.auctionStart;
       requests.push.apply(requests, args.bids);
     }
@@ -49,7 +49,7 @@ let hjAnalytics = Object.assign(adapter({url, analyticsType}), {
         return {
           t: 'r',
           b: x.bidder,
-          u: x.placementCode.replace('div-gpt-ad-', '')
+          u: x.adUnitCode.replace('div-gpt-ad-', '')
         };
       })
       events.push.apply(events,
