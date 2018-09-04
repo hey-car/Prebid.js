@@ -5,5 +5,7 @@
 	"aolBidAdapter",
 	"justpremiumBidAdapter",
 	"inskinBidAdapter",
+	"nanointeractiveBidAdapter",
+	"adyoulikeBidAdapter",
 	"hjAnalyticsAdapter"
 ]
