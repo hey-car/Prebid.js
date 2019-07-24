@@ -7,5 +7,7 @@
 	"inskinBidAdapter",
 	"nanointeractiveBidAdapter",
 	"adyoulikeBidAdapter",
+ 	"unrulyBidAdapter",
+ 	"teadsBidAdapter",
 	"hjAnalyticsAdapter"
 ]

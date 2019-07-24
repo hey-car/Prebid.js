@@ -1,5 +1,5 @@
 import adapter from 'src/AnalyticsAdapter';
-import adaptermanager from 'src/adaptermanager';
+import adaptermanager from 'src/adapterManager';
 const utils = require('src/utils');
 
 const analyticsType = 'endpoint';
