@@ -116,7 +116,7 @@ function createSingleBidResponse(serverBid) {
 }
 
 function createNqParam(bid) {
-  return bid.params[NQ_NAME] ? utils.getParameterByName(bid.params[NQ_NAME]) : bid.params[NQ] || null;
+  return (bid.params[NQ_NAME] ? utils.getParameterByName(bid.params[NQ_NAME]) : null) || bid.params[NQ] || null;
 }
 
 function createCategoryParam(bid) {
