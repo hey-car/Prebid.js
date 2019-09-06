@@ -1,6 +1,5 @@
 [
 	"consentManagement",
-	"criteoBidAdapter",
 	"sovrnBidAdapter",
 	"aolBidAdapter",
 	"justpremiumBidAdapter",
@@ -9,5 +8,6 @@
 	"adyoulikeBidAdapter",
  	"unrulyBidAdapter",
  	"teadsBidAdapter",
+ 	"loopmeBidAdapter",
 	"hjAnalyticsAdapter"
 ]
