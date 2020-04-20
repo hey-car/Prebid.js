@@ -3,11 +3,9 @@
 	"sovrnBidAdapter",
 	"aolBidAdapter",
 	"justpremiumBidAdapter",
-	"inskinBidAdapter",
 	"nanointeractiveBidAdapter",
 	"adyoulikeBidAdapter",
  	"unrulyBidAdapter",
- 	"teadsBidAdapter",
  	"loopmeBidAdapter",
 	"hjAnalyticsAdapter"
 ]
