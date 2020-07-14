@@ -11,6 +11,7 @@ let auctionStart = 0;
 let requests = [];
 let responses = [];
 let timeouts = [];
+let noBids = [];
 
 let hjAnalytics = Object.assign(adapter({url, analyticsType}), {
   track({eventType, args}) {
@@ -25,6 +26,9 @@ let hjAnalytics = Object.assign(adapter({url, analyticsType}), {
       } else {
         responses.push(args);
       }
+    }
+    if (eventType == 'noBid') {
+      noBids.push(args);      
     }
     if (eventType == 'bidWon') {
       send({
@@ -75,6 +79,16 @@ let hjAnalytics = Object.assign(adapter({url, analyticsType}), {
             s: x.width + 'x' + x.height,
             c: x.cpm,
             l: x.timeToRespond
+          };
+        })
+      );
+      events.push.apply(events,
+        noBids.map(function(x) {
+          utils.logInfo(x);
+          return {
+            t: 'n',
+            b: x.bidder,
+            u: x.adUnitCode.replace('div-gpt-ad-', '')
           };
         })
       );
