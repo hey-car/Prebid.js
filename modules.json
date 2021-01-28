@@ -7,6 +7,8 @@
 	"adyoulikeBidAdapter",
  	"unrulyBidAdapter",
  	"loopmeBidAdapter",
- 	"rhythmoneBidAdapter",
-	"hjAnalyticsAdapter"
+	"rhythmoneBidAdapter",
+	"sublimeBidAdapter",
+ 	"dfpAdServerVideo",
+	"hjAnalyticsAdapter"	
 ]
