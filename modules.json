@@ -10,6 +10,7 @@
  	"loopmeBidAdapter",
 	"rhythmoneBidAdapter",
 	"sublimeBidAdapter",
+	"inskinBidAdapter",
  	"dfpAdServerVideo",
 	"hjAnalyticsAdapter"	
 ]
