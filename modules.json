@@ -5,10 +5,12 @@
 	"aolBidAdapter",
 	"justpremiumBidAdapter",
 	"adyoulikeBidAdapter",
- 	"unrulyBidAdapter",
+	"unrulyBidAdapter",
 	"rhythmoneBidAdapter",
 	"sublimeBidAdapter",
 	"inskinBidAdapter",
- 	"dfpAdServerVideo",
-	"hjAnalyticsAdapter"	
+	"emx_digitalBidAdapter",
+	"quantcastBidAdapter",
+	"dfpAdServerVideo",
+	"hjAnalyticsAdapter"
 ]
