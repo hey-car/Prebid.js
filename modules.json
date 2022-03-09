@@ -1,0 +1,16 @@
+[
+	"consentManagement",
+	"currency",
+	"sovrnBidAdapter",
+	"aolBidAdapter",
+	"justpremiumBidAdapter",
+	"adyoulikeBidAdapter",
+	"unrulyBidAdapter",
+	"rhythmoneBidAdapter",
+	"sublimeBidAdapter",
+	"inskinBidAdapter",
+	"emx_digitalBidAdapter",
+	"quantcastBidAdapter",
+	"dfpAdServerVideo",
+	"hjAnalyticsAdapter"
+]
