@@ -1,7 +1,13 @@
 [
 	"consentManagement",
 	"currency",
+	
+	"sovrnBidAdapter",
 	"aolBidAdapter",
-	"nanointeractiveBidAdapter",
-	"emx_digitalBidAdapter"
+	"emx_digitalBidAdapter",
+	"amxBidAdapter",
+	"adyoulikeBidAdapter",
+	
+	"userId",
+	"amxIdSystem"
 ]
