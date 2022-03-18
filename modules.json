@@ -1,7 +1,7 @@
 [
 	"consentManagement",
 	"currency",
-	
+
 	"sovrnBidAdapter",
 	"aolBidAdapter",
 	"justpremiumBidAdapter",
@@ -13,6 +13,8 @@
 	"emx_digitalBidAdapter",
 	"quantcastBidAdapter",
 
-	"dfpAdServerVideo",	
+	"identityLinkIdSystem",
+	"atsAnalyticsAdapter",
+	"dfpAdServerVideo",
 	"hjAnalyticsAdapter"
 ]
