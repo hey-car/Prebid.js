@@ -12,6 +12,7 @@
 	"inskinBidAdapter",
 	"emx_digitalBidAdapter",
 	"quantcastBidAdapter",
+	"improvedigitalBidAdapter",
 
 	"identityLinkIdSystem",
 	"atsAnalyticsAdapter",
